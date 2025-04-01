@@ -1,6 +1,6 @@
-/****** General ***********/
-* {
+*{ 
     font-family: 'Raleway', sans-serif;
+    
 }
 
 :root {
@@ -12,6 +12,7 @@
 .fa-solid {
     color: var(--main-color);
 }
+
 
 body {
     display: flex;
@@ -62,23 +63,85 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
     box-sizing: border-box;
 }
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 61%;
+    border-radius: 20px;
+    gap: 30px;
 }
+
+.hebergements-title {
+
+  /**A remplir **/
+}
+
+.hebergements-cards .card {
+    margin-top: 33px;
+    width: 240px; 
+    height: 187px;
+    border-radius: 20px;
+    gap: 4px;
+    padding-bottom: 15px;
+
+} 
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-top-left-radius: 20px;
+}
+
+
+
+.hebergements-cards img {
+    width: 235px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px solid white;
+}
+
+.hebergements-cards .card-content {
+
+}
+
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+
+}
+
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+    
+}
+
+.hebergements .card-rating {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
 
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    padding: 30px;
 }
 
 .populaires-title {
@@ -120,7 +183,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
 
 
 
